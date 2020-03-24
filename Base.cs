@@ -6,7 +6,7 @@ using System.Drawing;
 
 namespace Hate9
 {
-    public class Methods
+    public partial class Methods
     {
 		public static byte BoolsToByte(bool bool1 = false, bool bool2 = false, bool bool3 = false, bool bool4 = false, bool bool5 = false, bool bool6 = false, bool bool7 = false, bool bool8 = false)
 		{
@@ -42,7 +42,7 @@ namespace Hate9
 
 
 
-	public static class Extensions
+	public static partial class Extensions
 	{
 		/// <summary>
 		/// Creates a <see cref="ListP{T}"/> from an <see cref="IEnumerable{T}"/>.
